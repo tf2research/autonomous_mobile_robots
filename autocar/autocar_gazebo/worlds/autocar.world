@@ -524,7 +524,7 @@
             <upper>100</upper>
           </limit>
           <dynamics>
-            <damping>1.0</damping>
+            <damping>1.1</damping>
           </dynamics>
           <use_parent_model_frame>true</use_parent_model_frame>
         </axis>
