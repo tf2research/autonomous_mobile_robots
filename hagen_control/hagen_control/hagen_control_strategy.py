@@ -220,7 +220,7 @@ class ControlStrategy(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    control_strategy = ControlStrategy(delta_t=0.03)
+    control_strategy = ControlStrategy(delta_t=0.02)
     # control_strategy.diff_drive_init()
     # control_strategy.inter_point_diff_drive_init()
     control_strategy.inter_direction_diff_drive_init()
